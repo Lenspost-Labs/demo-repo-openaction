@@ -40,7 +40,7 @@ export const uiConfig: UiConfig =
     : {
         helloWorldContractAddress: "0x4ae4400c4f965F818f3E0b66e9b0ef5721146Bc0",
         helloWorldContractStartBlock: 42984295,
-        openActionContractAddress: "0x1ab51D4580a29fc8155E076160AEC07b23b1467d",
+        openActionContractAddress: import.meta.env.VITE_OPEN_ACTION_CONTRACT_ADDRESS,
         openActionContractStartBlock: 42984295,
         lensHubProxyAddress: "0x4fbffF20302F3326B20052ab9C217C44F6480900",
         collectActionContractAddress:

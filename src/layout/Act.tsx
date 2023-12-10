@@ -38,7 +38,7 @@ const ActionBox = ({
       account: walletClient?.account.address,
       abi: IERC20,
       functionName: "increaseAllowance",
-      args: ["0x1ab51D4580a29fc8155E076160AEC07b23b1467d", 1000000000]
+      args: [import.meta.env.VITE_OPEN_ACTION_CONTRACT_ADDRESS, 1000000000]
     })
 
     const encodedCollectActionData = encodeAbiParameters(
