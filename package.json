@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@lens-protocol/metadata": "^1.0.0",
-    "@lens-protocol/react-web": "^2.0.0-alpha.22",
+    "@lens-protocol/react-web": "^2.0.0-alpha.27",
     "@lens-protocol/wagmi": "^3.0.0-alpha.19",
     "@radix-ui/react-slot": "^1.0.2",
     "@web3modal/wagmi": "^3.2.0",

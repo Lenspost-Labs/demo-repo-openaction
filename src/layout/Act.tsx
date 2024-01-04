@@ -137,8 +137,9 @@ const ActionBox = ({
 };
 
 export const Actions = () => {
-  const { address, profileId, posts, refresh, loading } = useLensHelloWorld();
-  console.log(posts);
+  const { address, profileId, refresh, loading } = useLensHelloWorld();
+  console.log(address);
+  console.log(uiConfig.openActionContractAddress);
   // const profileIdString = profileId ? "0x" + profileId.toString(16) : "0x0";
   let { data } = usePublications({
     where: {

@@ -75,6 +75,10 @@ function Profiles({
     <div className="flex flex-1 justify-center items-center flex-col">
       <div className="mt-20">
         <h1 className="text-5xl font-geist-black">Raveshare Smart Post Test</h1>
+        <h6> <a href="https://github.com/defispartan/lens-hello-world-open-action/">
+         ft.  https://github.com/defispartan/lens-hello-world-open-action/
+          </a>
+          </h6>
       </div>
       <div className="mt-6 mb-6">
         <Button
